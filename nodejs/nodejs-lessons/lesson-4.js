@@ -18,15 +18,3 @@
         var lines = content.toString().split('\n').length -1;
         console.log('Number of lines in the file : ' + filePath +" are :" + lines);
     });
-    /*try{
-        buf = fs.readFileSync(filePath);
-        console.log(buf.toString());
-    } catch(err){
-        console.log('Unable to load File : ' + filePath + ' Error:' + err.toString());
-    }
-    if (fileArg){
-        console.log(process.argv[2]);
-    } else {
-        console.log('No file and Path has been provided, Loaded default file.');
-    }
-    */
